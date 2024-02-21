@@ -1,0 +1,55 @@
+:root {
+  --bg: #1a1d20;
+  --textColor: #d7dbe0;
+  --secondary: #212529;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--textColor);
+  font-family: "Source Serif Pro", serif;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* #content {
+  background-color: var(--secondary);
+} */
+
+.secondImageContent {
+  opacity: 0;
+}
+
+.github {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background-color: var(--secondary);
+  text-transform: capitalize;
+}
+.instagram {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background-color: var(--secondary);
+  text-transform: capitalize;
+}
+.twitter {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background-color: var(--secondary);
+  text-transform: capitalize;
+}
+.discord {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background-color: var(--secondary);
+  text-transform: capitalize;
+}
+.contentText {
+  /* background-color: blue; */
+  width: 100%;
+  text-align: center;
+}
